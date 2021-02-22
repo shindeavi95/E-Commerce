@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'd3h!gknv$@rycsb=s%)am9+$mie)b2j4n9um*4xqj9(e3t@0e7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['avinash-ecommerce.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
